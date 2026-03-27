@@ -24,7 +24,8 @@
           "title": "beethoven",
           "artist": "beethoven"
         }
-      ]
+      ],
+      "rating": 3
     },
     {
       "id": "02",
@@ -45,12 +46,14 @@
           "title": "Piano Concerto No. 6",
           "artist": "Beethoven"
         }
-      ]
+      ],
+      "rating": 5
     },
     {
       "id": "03",
       "title": "Beethoven Unfinished Symphonies",
-      "songs": []
+      "songs": [],
+      "rating": 1
     },
     {
       "id": "a6045cd5-5d04-4007-b579-2f426bad8f1d",
@@ -61,7 +64,22 @@
           "title": "i just might",
           "artist": "bruno marssss"
         }
-      ]
+      ],
+      "rating": 4
+    },
+    {
+      "id": "128a72c2-b570-4fc3-967f-d28506441f88",
+      "title": "today",
+      "date": "2026-03-20T14:20:47.607Z",
+      "songs": [],
+      "rating": 0
+    },
+    {
+      "id": "a3bda344-f5a0-4147-a635-5b208fdf318d",
+      "title": "evie more songs",
+      "rating": 5,
+      "date": "2026-03-20T14:33:37.446Z",
+      "songs": []
     }
   ]
 }
