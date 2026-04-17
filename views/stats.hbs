@@ -8,7 +8,7 @@
   {{#with stats}}
   <div class="ui center aligned grid">
     <div class="ui sixteen wide column">
-      <div class="ui centered three statistics">
+      <div class="ui centered four statistics">
         <div class="ui statistic">
           <div class="value">
             <i class="microphone icon"></i>
@@ -32,6 +32,14 @@
             playlist: {{displayAverage}}
           </div>
         </div>
+
+        <div class="ui red statistic">
+          <div class="value">
+            <i class="user icon"></i>
+          </div>
+          <div class="label">{{totalUsers}} users</div>
+        </div>
+
       </div>
     </div>
 

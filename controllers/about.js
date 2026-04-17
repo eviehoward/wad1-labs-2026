@@ -2,20 +2,25 @@
 
 import logger from "../utils/logger.js";
 import card from "../models/card.js";
+import accounts from './accounts.js';
+
 
 const about = {
   createView(request, response) {
+    const loggedInUser = accounts.getCurrentUser(request);
     logger.info("About page loading!");
+    
+    if (loggedInUser) {
+      const viewData = {
+        title: 'About the Playlist App',
+        fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+        employees: card.getAppInfo(),
+      };
+      response.render('about', viewData);
+    }
+    else response.redirect('/');    
+},
 
-    const viewData = {
-      title: "About the playlist app",
-      employees: card.getAppInfo()
-    };
-
-    //logger.debug(viewData);
-    response.render("about", viewData);
-    //response.send('About the Playlist app');
-  }
 };
 
 export default about;

@@ -1,85 +1,49 @@
 {
   "playlistCollection": [
     {
-      "id": "01",
-      "title": "Beethoven Sonatas",
-      "songs": [
-        {
-          "id": "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "beechhoven1!"
-        },
-        {
-          "id": "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "65b67336-2247-4087-90df-241a6eaa926f",
-          "title": "beethoven",
-          "artist": "beethoven"
-        }
-      ],
-      "rating": 3
-    },
-    {
-      "id": "02",
-      "title": "Beethoven Concertos",
-      "songs": [
-        {
-          "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethooevn"
-        }
-      ],
-      "rating": 5
-    },
-    {
-      "id": "03",
-      "title": "Beethoven Unfinished Symphonies",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "0f24c082-e7f1-426d-8cb6-cf784a7c21e8",
+      "title": "homer playlist",
+      "rating": 3,
       "songs": [],
-      "rating": 1
+      "date": "2026-04-17T12:52:11.698Z"
     },
     {
-      "id": "a6045cd5-5d04-4007-b579-2f426bad8f1d",
-      "title": "evie songs",
-      "songs": [
-        {
-          "id": "7cea2bbf-09b0-4792-9152-5c4e464b5bc8",
-          "title": "i just might",
-          "artist": "bruno marssss"
-        }
-      ],
-      "rating": 4
-    },
-    {
-      "id": "128a72c2-b570-4fc3-967f-d28506441f88",
-      "title": "today",
-      "date": "2026-03-20T14:20:47.607Z",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "21f0334f-3d41-46e0-a612-855cd4d514e4",
+      "title": "marge playlist",
+      "rating": 3,
       "songs": [],
-      "rating": 0
+      "date": "2026-04-17T12:52:30.185Z"
     },
     {
-      "id": "a3bda344-f5a0-4147-a635-5b208fdf318d",
-      "title": "evie more songs",
+      "userid": "1561d475-5eca-4806-82cd-5cc5cb06d586",
+      "id": "f32956a8-6bb8-4f45-bd6f-c637f83898fb",
+      "title": "minecraft",
       "rating": 5,
-      "date": "2026-03-20T14:33:37.446Z",
-      "songs": []
+      "songs": [
+        {
+          "id": "8c13831f-dc4d-4223-97d6-15900c5c6a25",
+          "title": "Sweden",
+          "artist": "C418"
+        },
+        {
+          "id": "7850070d-0ca1-4fb0-b876-e85287ec6a07",
+          "title": "Mellohi",
+          "artist": "C418"
+        },
+        {
+          "id": "f50e94a2-a403-4ac9-bf60-1530d29e7109",
+          "title": "Cat",
+          "artist": "C418"
+        },
+        {
+          "id": "7074ad5e-0c36-4ea0-8c33-c145faea6431",
+          "title": "24k Magic",
+          "artist": "Bruno Mars"
+        }
+      ],
+      "date": "2026-04-17T13:06:29.888Z"
     }
   ]
 }

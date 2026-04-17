@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Evie",
+      "lastName": "H",
+      "email": "evie@email.com",
+      "password": "secret",
+      "id": "53979721-6cda-4997-bd7c-7bfef31e7b95"
+    },
+    {
+      "firstName": "hero",
+      "lastName": "brine",
+      "email": "herobrine@minecraft.com",
+      "password": "secret",
+      "id": "1561d475-5eca-4806-82cd-5cc5cb06d586"
+    }
+  ]
+}
