@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 import { Low } from "lowdb";
 import { JSONFile } from "lowdb/node";

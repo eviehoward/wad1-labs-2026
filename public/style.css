@@ -3,7 +3,9 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -14,11 +16,14 @@ body {
 }
 
 .editSubmit {
-  border:none;
+  border: none;
   background: none;
 }
 
+.hide {
+  display: none;
+}
 
-.hide{
-    display: none;
+table {
+  margin: auto;
 }

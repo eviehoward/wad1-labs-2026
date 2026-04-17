@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 import logger from "../utils/logger.js";
 import card from "../models/card.js";
@@ -11,11 +11,11 @@ const about = {
       title: "About the playlist app",
       employees: card.getAppInfo()
     };
-    
+
     //logger.debug(viewData);
-    response.render('about', viewData);   
-    //response.send('About the Playlist app');   
-  },
+    response.render("about", viewData);
+    //response.send('About the Playlist app');
+  }
 };
 
 export default about;
