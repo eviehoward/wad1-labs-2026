@@ -1,14 +1,6 @@
 {
   "playlistCollection": [
     {
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "id": "0f24c082-e7f1-426d-8cb6-cf784a7c21e8",
-      "title": "homer playlist",
-      "rating": 3,
-      "songs": [],
-      "date": "2026-04-17T12:52:11.698Z"
-    },
-    {
       "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
       "id": "21f0334f-3d41-46e0-a612-855cd4d514e4",
       "title": "marge playlist",
