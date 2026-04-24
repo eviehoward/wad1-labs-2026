@@ -6,6 +6,7 @@ import logger from "./utils/logger.js";
 import { create } from "express-handlebars";
 import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
+import fileUpload from "express-fileupload";
 
 
 const app = express();
@@ -16,6 +17,8 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(cookieParser());
+
+app.use(fileUpload({useTempFiles: true}));
 
 const handlebars = create({
   extname: ".hbs",
