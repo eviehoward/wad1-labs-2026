@@ -27,6 +27,17 @@
       "email": "herobrine@minecraft.com",
       "password": "secret",
       "id": "1561d475-5eca-4806-82cd-5cc5cb06d586"
+    },
+    {
+      "firstName": "evie",
+      "lastName": "h",
+      "email": "evie@test.com",
+      "password": "secret",
+      "id": "4ef74a10-0588-49ab-861d-e84f8159e5ed",
+      "picture": {
+        "url": "http://res.cloudinary.com/dzafc16rc/image/upload/v1777038009/ms6cadmqzgeeydj3ucsb.png",
+        "public_id": "ms6cadmqzgeeydj3ucsb"
+      }
     }
   ]
 }

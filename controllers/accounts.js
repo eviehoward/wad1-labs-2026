@@ -40,10 +40,13 @@ const accounts = {
  //register function to render the registration page for adding a new user
   register(request, response) {
     const user = request.body;
-    user.id = uuidv4();
-    userStore.addUser(user);
+    user.id = uuidv4(); 
+
     logger.info('registering' + user.email);
-    response.redirect('/login');
+    //response.redirect('/login');
+    userStore.addUser(user, request.files.picture, function() {
+      response.redirect('/login');
+    });
   },
   
   //authenticate function to check user credentials and either render the login page again or the start page.

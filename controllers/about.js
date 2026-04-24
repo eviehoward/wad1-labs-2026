@@ -14,6 +14,7 @@ const about = {
       const viewData = {
         title: 'About the Playlist App',
         fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+        picture: loggedInUser.picture,
         employees: card.getAppInfo(),
       };
       response.render('about', viewData);
